@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>OmikujiBot導入サイト</title>
+
+  <style>
+    body{
+      margin:0;
+      height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      flex-direction:column;
+      background:#0f172a;
+      font-family:sans-serif;
+      overflow:hidden;
+    }
+
+    h1{
+      color:white;
+      margin-bottom:40px;
+      font-size:40px;
+    }
+
+    .invite-btn{
+      padding:18px 40px;
+      font-size:24px;
+      border:none;
+      border-radius:14px;
+      background:#5865F2;
+      color:white;
+      cursor:pointer;
+      transition:0.2s;
+      text-decoration:none;
+      box-shadow:0 0 20px rgba(88,101,242,0.4);
+    }
+
+    .invite-btn:hover{
+      transform:scale(1.05);
+      background:#4752c4;
+    }
+
+    footer{
+      position:absolute;
+      bottom:20px;
+      color:rgba(255,255,255,0.6);
+      font-size:14px;
+      letter-spacing:1px;
+    }
+
+    footer span{
+      color:#ffffff;
+      font-weight:bold;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>OmikujiBot導入サイト</h1>
+
+  <a class="invite-btn"
+     href="https://discord.com/oauth2/authorize?client_id=1496676086527037541&scope=bot%20applications.commands&permissions=274877975552">
+     導入する
+  </a>
+
+  <footer>
+    Created by <span>KaN</span>
+  </footer>
+
+</body>
+</html>
